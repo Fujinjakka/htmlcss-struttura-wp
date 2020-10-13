@@ -50,23 +50,30 @@ li {
   margin: 10px;
 }
 
+
+
+
 main {
   border: 1px solid white;
   height: 800px;
-  margin: 10px 10% 10px;
+  margin: 10px 10% 0;
+}
+main::after {
+content: "";
+display: table;
+clear: both;
 }
 section {
   border: 1px solid white;
   background: white;
-  height: 100px;
-  width: 100px;
-  display: inline-block;
-  margin: 10px;
+  /* width: 100px; */
+  /* display: inline-block; */
   text-align: center;
 }
 .colonna1 {
   width: 20%;
   float: left;
+  margin-right: 10%;
 }
 .colonna2 {
   width: 40%;
@@ -75,9 +82,14 @@ section {
 .colonna3 {
   width: 20%;
   float: right;
+  margin-left: 10%;
 }
-
-
+#testo1 {
+  background: red;
+}
+#testo2 {
+  background: yellow;
+}
 
 
 
@@ -87,4 +99,6 @@ section {
 footer {
   border: 1px solid white;
   height: 150px;
+  background: white;
+  margin: 0 10% 0;
 }
