@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/legno.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  background-image: url("../img/foresta.jpg");
+  border: 10px solid white;
+  height: 300px;
+  position: relative;
+  color: white;
+  margin: 20px 10% 0;
+}
+h1 {
+  border: 10px solid white;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+h2 {
+  position: absolute;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%, -50%);
+}
+
+nav {
+  height: 100px;
+  background: grey;
+  color: white;
+  margin: 0 10% 0;
+  text-align: center;
+  position: relative;
+}
+ul {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+li {
+  display: inline-block;
+  margin: 10px;
+}
+
+main {
+  border: 1px solid white;
+  height: 800px;
+  margin: 10px 10% 10px;
+}
+section {
+  border: 1px solid white;
+  background: white;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+.colonna1 {
+  width: 20%;
+  float: left;
+}
+.colonna2 {
+  width: 40%;
+  float: left;
+}
+.colonna3 {
+  width: 20%;
+  float: right;
+}
+
+
+
+
+
+
+
+
+footer {
+  border: 1px solid white;
+  height: 150px;
+}
